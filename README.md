@@ -1,20 +1,98 @@
-<<<<<<< HEAD
-# Note-App
-=======
-# React + Vite
+# 🎨 Notes App Frontend (React + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of a Notes Application built using React and Tailwind CSS. It provides a clean and responsive user interface to manage notes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📝 Create Notes
+* 📖 View Notes
+* ✏️ Edit Notes
+* 🗑️ Delete Notes
+* 🎨 Clean and responsive UI
+* ⚡ Fast performance with React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 105bc70 (Initial commit - client)
+* React.js
+* Tailwind CSS
+* JavaScript (ES6+)
+
+---
+
+## 📁 Project Structure
+
+```id="4m5az9"
+client/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+│
+└── public/
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```id="2q4n1h"
+git clone https://github.com/your-username/frontend-repo.git
+cd frontend-repo
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+```id="p3l8xm"
+npm install
+```
+
+---
+
+### 3️⃣ Run the application
+
+```id="7q9zpl"
+npm start
+```
+
+---
+
+## 🔗 Backend Connection
+
+This frontend connects to a backend API running at:
+
+```id="9b8n2s"
+http://localhost:4001
+```
+
+Make sure the backend server is running before using the app.
+
+---
+
+## 📌 Future Improvements
+
+* 🔐 Add Authentication (Login & Signup UI)
+* 🌙 Dark Mode
+* 🔍 Search Notes
+* 📱 Improve Mobile UI
+
+---
+
+## 👨‍💻 Author
+
+Shivam Gupta
+
+---
+
+## ⭐ Support
+
+If you like this project, please ⭐ the repository!
